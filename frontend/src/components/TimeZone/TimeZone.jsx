@@ -38,9 +38,9 @@ export default function TimeZone({ compact = true }) {
     <span
       className={`tz-badge${compact ? " tz-badge--compact" : ""}`}
       title={`${tzIANA}, ${utcLabel}, ${mskLabel}`}
-      aria-label={`Часовой пояс: ${tzIANA}, смещение: ${utcLabel}, разница с МСК: ${mskLabel}`}
+      aria-label={`Часовой пояс: ${tzIANA}, смещение: ${utcLabel}`}
     >
-      ({tzIANA}, {utcLabel}, {mskLabel})
+      ({tzIANA}, {utcLabel})
     </span>
   );
 }
