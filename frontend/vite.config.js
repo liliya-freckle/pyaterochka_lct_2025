@@ -18,5 +18,9 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/chat/, "/chat"),
       },
     },
+    build: {
+      outDir: "../dist", // билд вне frontend, чтобы не мешать исходникам
+      emptyOutDir: true,
+    },
   },
 });
