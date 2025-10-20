@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/chat", "destination": "http://185.185.142.249:8000/chat" }
+  ]
+}
